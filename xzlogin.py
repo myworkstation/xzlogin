@@ -32,7 +32,6 @@ def login(username,password):
     "Accept-Language":"zh-CN,zh;q=0.8",
     "Cache-Control":"max-age=0",
     "Connection":"keep-alive",
-    "Content-Length":"73",
     "Content-Type":"application/x-www-form-urlencoded",
     "Host":"202.115.71.131",
     "Origin":"http://202.115.71.131",
