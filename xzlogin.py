@@ -181,8 +181,8 @@ def save_file(path,filename,data):
 
 #==========================================================
 
-resourceid="CE3E966A68970356"
-savepath="/Users/Landon_pro/xzfile/"
+resourceid="CE3E966A68970356"   #视频id
+savepath="/Users/Landon_pro/xzfile/"    #验证码保存路径
 
 firstnow=time.time()
 now=int(1000*firstnow)
