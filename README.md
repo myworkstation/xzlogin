@@ -1,7 +1,7 @@
 xzlogin
 =======
 
-track for xingzheng course login
+crack for xingzheng course video recoding time system
 
 1.此程序用于破解西南交通大学形势与政策课程网上视频收看计时系统。
 
