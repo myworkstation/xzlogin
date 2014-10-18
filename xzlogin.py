@@ -1,4 +1,6 @@
 #coding:utf-8
+
+#autor:landon connect me by:landonpro@163.com
 import urllib
 import urllib2
 import cookielib
@@ -6,7 +8,6 @@ import re
 import time
 import os
 import uuid
-
 
 #获取一个保存cookie的对象
 cj = cookielib.LWPCookieJar()
@@ -190,17 +191,17 @@ stringnow=str(now)
 username=raw_input("please input your username: ")
 password=raw_input("please input your password: ")
 
-login(username,password)
-watchvideo(resourceid)
-sid=addTime(resourceid)
-pic=getRandomPic(resourceid)
-save_file(savepath,"islogin"+stringnow+".png",pic)
+login(username,password) #登录
+watchvideo(resourceid) #进入收看页面
+sid=addTime(resourceid) #开始计时
+pic=getRandomPic(resourceid) #获取验证码
+save_file(savepath,"islogin"+stringnow+".png",pic) #保存验证码
 
 print "请速到/Users/Landon_pro/xzfile/目录下查看验证码"
 
-randstr=raw_input("please input the answer:")
+randstr=raw_input("please input the answer:") #输入验证码答案
 
-updateTime(resourceid,sid,randstr)
+updateTime(resourceid,sid,randstr)  #更新时间
 print "-------------------------------------------"
 
 #--------第二次跑这段程序--------------------------
