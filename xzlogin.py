@@ -187,6 +187,7 @@ savepath="/Users/Landon_pro/xzfile/"    #验证码保存路径
 firstnow=time.time()
 now=int(1000*firstnow)
 stringnow=str(now)
+looptime=0
 #-----------第一次跑这一段程序----------------------
 username=raw_input("please input your username: ")
 password=raw_input("please input your password: ")
@@ -207,12 +208,13 @@ print "-------------------------------------------"
 #--------第二次跑这段程序--------------------------
 while(1):
 	if (time.time()-firstnow)>360:
-		if (time.time()-firstnow)>3000:
+		if looptime>8:
 			break
 		else:
+			looptime=looptime+1
 			updateTime(resourceid,sid,randstr)
 			firstnow=time.time()
-			print str(firstnow)
+			print looptime
 			print "========================="
 
 
