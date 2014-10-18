@@ -1,7 +1,7 @@
 xzlogin
 =======
 
-crack for xingzheng course video recoding time system
+crack for xingzheng course video time recoding system of southwest jiaotong university
 
 1.此程序用于破解西南交通大学形势与政策课程网上视频收看计时系统。
 
@@ -13,4 +13,4 @@ crack for xingzheng course video recoding time system
 
 5.程序中的验证码保存路径需要根据个人电脑进行配置，程序运行过程中需要输入一次验证码，之后即可自动运行。
 
-如有其他问题可以联系landon，邮箱：landonpro@163.com
+如有其他问题可以联系landon，邮箱：landonpro@163.com  QQ:1097549351
