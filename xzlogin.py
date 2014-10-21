@@ -197,7 +197,7 @@ sid=addTime(resourceid) #开始计时
 pic=getRandomPic(resourceid) #获取验证码
 save_file(savepath,"islogin"+stringnow+".png",pic) #保存验证码
 
-print "请速到/Users/Landon_pro/xzfile/目录下查看验证码"
+print "请速到"+savepath+"目录下查看验证码"
 
 randstr=raw_input("please input the answer:") #输入验证码答案
 
